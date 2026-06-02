@@ -1,219 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Venkat Sai | Data Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Sai | Data Engineer</title>
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #f8fafc;
-    line-height: 1.6;
-}
-
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-header {
-    padding: 80px 0;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2rem;
-    color: #94a3b8;
-}
-
-.btn {
-    display: inline-block;
-    margin: 15px 10px;
-    padding: 12px 24px;
-    background: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-section {
-    padding: 50px 0;
-}
-
-h2 {
-    margin-bottom: 20px;
-    color: #38bdf8;
-}
-
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-    gap: 20px;
-}
-
-.card {
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 12px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skill {
-    background: #1e293b;
-    padding: 10px 15px;
-    border-radius: 20px;
-}
-
-.timeline {
-    border-left: 3px solid #38bdf8;
-    padding-left: 20px;
-}
-
-.timeline-item {
-    margin-bottom: 25px;
-}
-
-footer {
-    text-align: center;
-    padding: 40px 0;
-    color: #94a3b8;
-}
-</style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
-    <div class="container">
-        <h1>Venkat Sai Vedantham</h1>
-        <p>Data Engineer | Databricks | PySpark | SQL | Azure</p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
 
-        <a href="#" class="btn">Download Resume</a>
-        <a href="#" class="btn">GitHub</a>
-    </div>
-</header>
+            <h1>Venkat Sai</h1>
 
-<section>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            Data Engineer with 5+ years of experience building
-            ETL pipelines, data platforms, analytics solutions,
-            and Databricks-based processing systems.
-        </p>
-    </div>
-</section>
+            <p>
+                Data Engineer | Databricks | PySpark | SQL | Azure
+            </p>
 
-<section>
-    <div class="container">
-        <h2>Skills</h2>
+            <div class="buttons">
 
-        <div class="skills">
-            <div class="skill">Python</div>
-            <div class="skill">PySpark</div>
-            <div class="skill">Databricks</div>
-            <div class="skill">SQL</div>
-            <div class="skill">Azure</div>
-            <div class="skill">ADF</div>
-            <div class="skill">Delta Lake</div>
-            <div class="skill">Git</div>
-        </div>
-    </div>
-</section>
+                <a href="resume/venkat_sai_vedantham.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+    View Resume
+</a>
 
-<section>
-    <div class="container">
-        <h2>Projects</h2>
+                <a href="https://www.linkedin.com/"
+                   target="_blank">
+                    LinkedIn
+                </a>
 
-        <div class="card-grid">
+                <a href="https://github.com/vsvedantham"
+                   target="_blank">
+                    GitHub
+                </a>
 
-            <div class="card">
-                <h3>Tableau Usage Analytics Automation</h3>
-                <p>
-                    Automated Tableau report extraction,
-                    processing and validation using Python,
-                    Selenium and SQL.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Databricks ETL Framework</h3>
-                <p>
-                    Production-grade ETL framework using
-                    Databricks, PySpark and Delta Lake.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>AI Photo Vault</h3>
-                <p>
-                    Personal cloud storage and AI-powered
-                    image search platform. (In Progress)
-                </p>
             </div>
 
         </div>
-    </div>
-</section>
+    </header>
 
-<section>
-    <div class="container">
-        <h2>Experience</h2>
+    <!-- About Section -->
+    <section id="about">
 
-        <div class="timeline">
+        <div class="container">
 
-            <div class="timeline-item">
-                <h3>Data Engineer - EXL Service</h3>
-                <p>2022 - Present</p>
-            </div>
+            <h2>About Me</h2>
 
-            <div class="timeline-item">
-                <h3>Associate Analyst - GlobalLogic</h3>
-                <p>2020 - 2022</p>
+            <p>
+                Data Engineer with 5+ years of experience designing,
+                developing and maintaining ETL pipelines, analytics
+                platforms and data solutions using Databricks,
+                PySpark, SQL and Azure technologies.
+
+                Experienced in transforming large-scale healthcare
+                data into reliable and actionable insights through
+                scalable data engineering solutions.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <div class="container">
+
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">Python</div>
+                <div class="skill-card">PySpark</div>
+                <div class="skill-card">Databricks</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Azure</div>
+                <div class="skill-card">Azure Data Factory</div>
+                <div class="skill-card">Delta Lake</div>
+                <div class="skill-card">Git</div>
+                <div class="skill-card">CI/CD</div>
+                <div class="skill-card">Data Modeling</div>
+                <div class="skill-card">ETL Development</div>
+                <div class="skill-card">Data Warehousing</div>
+
             </div>
 
         </div>
-    </div>
-</section>
 
-<section>
-    <div class="container">
-        <h2>Contact</h2>
-
-        <p>Email: your@email.com</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
-        <p>GitHub: github.com/yourgithub</p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Venkat Sai</p>
-</footer>
+    </section>
 
 </body>
+
 </html>
